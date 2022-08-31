@@ -1,0 +1,19 @@
+{
+  "name": "mediasoup-app",
+  "version": "1.0.0",
+  "description": "videoconference app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdrissHmz/mediasoup-app.git"
+  },
+  "author": "Idriss Hamzaoui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IdrissHmz/mediasoup-app/issues"
+  },
+  "homepage": "https://github.com/IdrissHmz/mediasoup-app#readme"
+}
