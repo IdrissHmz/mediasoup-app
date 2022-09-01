@@ -23,6 +23,8 @@ const Logger = require('./lib/Logger');
 const Room = require('./lib/Room');
 const interactiveServer = require('./lib/interactiveServer');
 const interactiveClient = require('./lib/interactiveClient');
+const FFmpeg = require('./record/ffmpeg');
+const GStreamer = require('./record/gstreamer');
 
 const logger = new Logger();
 
