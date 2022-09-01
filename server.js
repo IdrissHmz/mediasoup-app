@@ -648,17 +648,17 @@ const getProcess = (recordInfo) => {
     }
 };
 
-(async () => {
-    try {
-        console.log('starting server [processName:%s]', PROCESS_NAME);
-        await initializeWorkers();
-        router = await createRouter();
+// (async () => {
+//     try {
+//         console.log('starting server [processName:%s]', PROCESS_NAME);
+//         await initializeWorkers();
+//         router = await createRouter();
 
-        httpsServer.listen(SERVER_PORT, () =>
-            console.log('Socket Server listening on port %d', SERVER_PORT)
-        );
-    } catch (error) {
-        console.error('Failed to initialize application [error:%o] destroying in 2 seconds...', error);
-        setTimeout(() => process.exit(1), 2000);
-    }
-})();
+//         httpsServer.listen(SERVER_PORT, () =>
+//             console.log('Socket Server listening on port %d', SERVER_PORT)
+//         );
+//     } catch (error) {
+//         console.error('Failed to initialize application [error:%o] destroying in 2 seconds...', error);
+//         setTimeout(() => process.exit(1), 2000);
+//     }
+// })();
